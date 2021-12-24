@@ -1,0 +1,1001 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #222222;
+    line-height: 75px;
+    padding: 0px 100px;
+}
+
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+nav .logo p{
+    float: left;
+    color: #ffff;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #ffff;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+nav ul li a:hover{
+    color: #333;
+    background: #ff69b4;
+}
+
+nav ul li .active{
+    color: #ffd1dc;
+    border-bottom: 3px solid;
+}
+
+nav ul li select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: none;
+    background: #ff69b4;
+    background-image: none;
+}
+
+nav ul li select::-ms-expand{
+    display: none;
+}
+
+nav ul li select{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    line-height: 2;
+    background-image: #ffd1dc;
+    overflow: hidden;
+    border-radius: .25cm;
+}
+
+nav ul li select{
+    flex: 1;
+    padding: 0 .5cm;
+    color: white;
+    cursor: pointer;
+}
+.explore-tabs ul li .active{
+    color: #ffd1dc;
+}
+body{
+    background-image: url(https://www.xmple.com/wallpaper/graph-paper-black-pink-grid-1440x2560-c2-000000-ff69b4-l2-5-245-a-30-f-20.svg);
+    background-size: cover;
+}
+
+.explore-tabs{
+    text-align: left;
+    padding: 120px;
+}
+
+.explore-tabs ul li{
+    display: inline-block;
+}
+
+.explore-tabs ul li a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 0px 20px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.explore-tabs ul li a:hover{
+    color: #e4a0b7;
+}
+
+.explore-tabs ul li select{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    line-height: 2;
+    color: pink;
+    overflow: hidden;
+    border-radius: .25cm;
+}
+
+.explore-tabs ul li select{
+    flex: 1;
+    padding: 0 .5cm;
+    color: black;
+    cursor: pointer;
+}
+
+.explore-tabs ul li select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: none;
+    background: #ff69b4;
+    background-image: none;
+}
+
+.explore-tabs ul li select::-ms-expand{
+    display: none;
+}
+button:hover{
+    background-color: #ff69b4;
+}
+
+.fy-1{
+    background: #e4bfb6;
+    padding: 10px;
+    height: 230px;
+    width: 180px;
+    position: relative;
+    top: -90px;
+    left: 140px;
+    border-radius: 10px;
+}
+
+.fy-1 ul li{
+    display: inline-block;
+}
+
+.fy-1 img{
+    width: 75px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.fy-1 button{
+    align-items: center;
+    height: 40px;
+    width: 160px;
+}
+
+.fy-2{
+    background: #cd978b;
+    padding: 10px;
+    height: 230px;
+    width: 180px;
+    position: relative;
+    top: -320px;
+    left: 340px;
+    border-radius: 10px;
+}
+
+.fy-2 ul li{
+    display: inline-block;
+}
+
+.fy-2 img{
+    width: 75px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.fy-2 button{
+    align-items: center;
+    height: 40px;
+    width: 160px;
+}
+
+.fy-3{
+    background: #fee5e0;
+    padding: 10px;
+    height: 230px;
+    width: 180px;
+    position: relative;
+    top: -550px;
+    left: 540px;
+    border-radius: 10px;
+}
+
+.fy-3 ul li{
+    display: inline-block;
+}
+
+.fy-3 img{
+    width: 75px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.fy-3 button{
+    align-items: center;
+    height: 40px;
+    width: 160px;
+}
+
+.fy-4{
+    background: #f79177;
+    padding: 10px;
+    height: 230px;
+    width: 180px;
+    position: relative;
+    top: -780px;
+    left: 740px;
+    border-radius: 10px;
+}
+
+.fy-4 ul li{
+    display: inline-block;
+}
+
+.fy-4 img{
+    width: 75px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.fy-4 button{
+    align-items: center;
+    height: 40px;
+    width: 160px;
+}
+
+.side2{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 330px;
+    width: 390px;
+    position: relative;
+    top: -1010px;
+    left: 960px;
+    background: #f4c4df;
+    border-radius: 5px;
+}
+
+.side2 ul img{
+    border-radius: 5px;
+    width: 50px;
+    height:50px;
+    object-fit: cover;
+    position: relative;
+    top: -20px;
+    right: -5px;
+}
+
+.side2 ul li{
+    font-size: 23px;
+    display: inline-block;
+    padding: 0px 15px;
+    position: relative;
+    top: -30px;
+    right: -10px;
+}
+
+.side2 a{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.side2 a:hover{
+    color: #ff69b4;
+}
+
+.pre{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 30px;
+    height: 380px;
+    width: 350px;
+    position: relative;
+    top: -1090px;
+    left: 140px;
+    border-radius: 5px;
+}
+
+.pre ul img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.pre ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    top: -25px;
+    right: px;
+    font-size: 17px;
+}
+
+.pre ul li a{
+    color: black;
+}
+
+.pre ul li a:hover{
+    color: #e4a0b7;
+}
+
+.pre p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.pre a{
+    text-decoration: none;
+    color: black;
+}
+
+.pre a:hover{
+    color: #e4a0b7;
+}
+
+.so ul li{
+    padding: 0px 25px;
+    position: relative;
+    top: -10px;
+}
+
+.so ul a{
+    color: black;
+}
+
+.so ul a:hover{
+    color: #e4a0b7;
+}
+
+.ne1{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 30px;
+    height: 300px;
+    width: 350px;
+    position: relative;
+    top: -1470px;
+    left: 530px;
+    border-radius: 5px;
+}
+
+.ne1 ul img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.ne1 ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    top: -25px;
+    right: px;
+    font-size: 17px;
+}
+
+.ne1 ul li a{
+    color: black;
+}
+
+.ne1 ul li a:hover{
+    color: #e4a0b7;
+}
+
+.ne1 p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.ne1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.ne1 a:hover{
+    color: #e4a0b7;
+}
+
+.nee1 ul li{
+    padding: 0px 25px;
+    position: relative;
+    top: -10px;
+}
+
+.nee1 ul a{
+    color: black;
+}
+
+.nee1 ul a:hover{
+    color: #e4a0b7;
+}
+
+.ne2{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 30px;
+    height: 390px;
+    width: 350px;
+    position: relative;
+    top: -1370px;
+    left: 140px;
+    border-radius: 5px;
+}
+
+.ne2 ul img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.ne2 ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    top: -25px;
+    right: px;
+    font-size: 17px;
+}
+
+.ne2 ul li a{
+    color: black;
+}
+
+.ne2 ul li a:hover{
+    color: #e4a0b7;
+}
+
+.ne2 p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.ne2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.ne2 a:hover{
+    color: #e4a0b7;
+}
+
+.nee2 ul li{
+    padding: 0px 25px;
+    position: relative;
+    top: -10px;
+}
+
+.nee2 ul a{
+    color: black;
+}
+
+.nee2 ul a:hover{
+    color: #e4a0b7;
+}
+
+.ne3{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 30px;
+    height: 400px;
+    width: 350px;
+    position: relative;
+    top: -1370px;
+    left: 140px;
+    border-radius: 5px;
+}
+
+.ne3 ul img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.ne3 ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    top: -25px;
+    right: px;
+    font-size: 17px;
+}
+
+.ne3 ul li a{
+    color: black;
+}
+
+.ne3 ul li a:hover{
+    color: #e4a0b7;
+}
+
+.ne3 p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.ne3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.ne3 a:hover{
+    color: #e4a0b7;
+}
+
+.nee3 ul li{
+    padding: 0px 25px;
+    position: relative;
+    top: -10px;
+}
+
+.nee3 ul a{
+    color: black;
+}
+
+.nee3 ul a:hover{
+    color: #e4a0b7;
+}
+.ne4{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 30px;
+    height: 330px;
+    width: 350px;
+    position: relative;
+    top: -1840px;
+    left: 530px;
+    border-radius: 5px;
+}
+
+.ne4 ul img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.ne4 ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    top: -25px;
+    right: px;
+    font-size: 17px;
+}
+
+.ne4 ul li a{
+    color: black;
+}
+
+.ne4 ul li a:hover{
+    color: #e4a0b7;
+}
+
+.ne4 p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.ne4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.ne4 a:hover{
+    color: #e4a0b7;
+}
+
+.nee4 ul li{
+    padding: 0px 25px;
+    position: relative;
+    top: -10px;
+}
+
+.nee4 ul a{
+    color: black;
+}
+
+.nee4 ul a:hover{
+    color: #e4a0b7;
+}
+
+.ne5{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 30px;
+    height: 340px;
+    width: 350px;
+    position: relative;
+    top: -1680px;
+    left: 140px;
+    border-radius: 5px;
+}
+
+.ne5 ul img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.ne5 ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    top: -25px;
+    right: px;
+    font-size: 17px;
+}
+
+.ne5 ul li a{
+    color: black;
+}
+
+.ne5 ul li a:hover{
+    color: #e4a0b7;
+}
+
+.ne5 p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.ne5 a{
+    text-decoration: none;
+    color: black;
+}
+
+.ne5 a:hover{
+    color: #e4a0b7;
+}
+
+.nee5 ul li{
+    padding: 0px 25px;
+    position: relative;
+    top: -10px;
+}
+
+.nee5 ul a{
+    color: black;
+}
+
+.nee5 ul a:hover{
+    color: #e4a0b7;
+}
+
+.ne6{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 30px;
+    height: 550px;
+    width: 350px;
+    position: relative;
+    top: -2160px;
+    left: 530px;
+    border-radius: 5px;
+}
+
+.ne6 ul img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.ne6 ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    top: -25px;
+    right: px;
+    font-size: 17px;
+}
+
+.ne6 ul li a{
+    color: black;
+}
+
+.ne6 ul li a:hover{
+    color: #e4a0b7;
+}
+
+.ne6 p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.ne6 a{
+    text-decoration: none;
+    color: black;
+}
+
+.ne6 a:hover{
+    color: #e4a0b7;
+}
+
+.nee6 ul li{
+    padding: 0px 25px;
+    position: relative;
+    top: -10px;
+}
+
+.nee6 ul a{
+    color: black;
+}
+
+.nee6 ul a:hover{
+    color: #e4a0b7;
+}
+
+.ne7{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 30px;
+    height: 380px;
+    width: 350px;
+    position: relative;
+    top: -2210px;
+    left: 530px;
+    left: 140px;
+    border-radius: 5px;
+}
+
+.ne7 ul img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.ne7 ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    top: -25px;
+    right: px;
+    font-size: 17px;
+}
+
+.ne7 ul li a{
+    color: black;
+}
+
+.ne7 ul li a:hover{
+    color: #e4a0b7;
+}
+
+.ne7 p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.ne7 a{
+    text-decoration: none;
+    color: black;
+}
+
+.ne7 a:hover{
+    color: #e4a0b7;
+}
+
+.nee7 ul li{
+    padding: 0px 25px;
+    position: relative;
+    top: -10px;
+}
+
+.nee7 ul a{
+    color: black;
+}
+
+.nee7 ul a:hover{
+    color: #e4a0b7;
+}
+
+.ne8{
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 30px;
+    height: 720px;
+    width: 350px;
+    position: relative;
+    top: -2520px;
+    left: 530px;
+    border-radius: 5px;
+}
+
+.ne8 ul img{
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    position: relative;
+    top: 10px;
+}
+
+.ne8 ul li{
+    display: inline-block;
+    padding: 0px 5px;
+    position: relative;
+    top: -25px;
+    right: px;
+    font-size: 17px;
+}
+
+.ne8 ul li a{
+    color: black;
+}
+
+.ne8 ul li a:hover{
+    color: #e4a0b7;
+}
+
+.ne8 p{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.ne8 a{
+    text-decoration: none;
+    color: black;
+}
+
+.ne8 a:hover{
+    color: #e4a0b7;
+}
+
+.nee8 ul li{
+    padding: 0px 25px;
+    position: relative;
+    top: -10px;
+}
+
+.nee8 ul a{
+    color: black;
+}
+
+.nee8 ul a:hover{
+    color: #e4a0b7;
+}
+
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #222222;
+    padding: 70px 0px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e4a0b7;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.footer-col ul li:not(:last child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transform: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #e4a0b7;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #e4a0b7;
+    transition: all 0.5 ease;
+}
+
+.footer-col .social-links a:hover{
+    color: #e4a0b7;
+    background-color: #ff69b4;
+}
+
+/* responsive */
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
