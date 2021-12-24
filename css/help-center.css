@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #222222;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+    
+}
+
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+nav .logo a{
+    float: left;
+    color: #ffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #ffff;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+nav ul li a:hover{
+    color: #333;
+    background: #ff69b4;
+}
+
+body{
+    background-image: url(https://www.xmple.com/wallpaper/graph-paper-black-pink-grid-1440x2560-c2-000000-ff69b4-l2-5-245-a-30-f-20.svg);
+    background-size: cover;
+}
+/* ------------------------ */
+select{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ff69b4;
+    color: white;
+    border-radius:.25cm;
+}
+.container p {
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin: 40px;
+    padding: 100px;
+    color: #ffff;
+}
+.container{
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+button {
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    margin-left: 10px;
+}
+button a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+button a:hover {
+    color: #ff69b4;
+}
+/* ------------------------ */
+
+.your-account{
+    width: 75%;
+    height: 620px;
+    background-color: white;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 40px auto;
+    border-radius: 5px;
+
+}
+.search-discovery{
+    width: 75%;
+    height: 400px;
+    background-color: white;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 50px auto;
+    border-radius: 5px;
+
+}
+.customizing{
+    width: 75%;
+    height: 550px;
+    background-color: white;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 50px auto;
+    border-radius: 10px;
+
+}
+.posting{
+    width: 75%;
+    height: 500px;
+    background-color: white;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 50px auto;
+    border-radius: 10px;
+
+}
+.title h1,
+.title2 h1,
+.title3 h1,
+.title4 h1{
+    padding: 10px 0 10px 25px;
+    color: white;
+    border-radius: 4px;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.title h1 {
+    background-color: #ff69b4;
+}
+.title2 h1 {
+    background-color: rgb(0, 83, 139);
+}
+.title3 h1 {
+    background-color: green
+}
+.title4 h1 {
+    background-color: darkorchid;
+}
+.your-account a,
+.search-discovery a, 
+.customizing a,
+.posting a {
+    text-decoration: none;
+    color: black;
+}
+.your-account h3,
+.search-discovery h3,
+.customizing h3,
+.posting h3{
+    padding:20px 20px 0px 30px;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+}
+.your-account ul li,
+.search-discovery ul li,
+.customizing ul li,
+.posting ul li{
+    padding:20px 20px 0px 30px;
+    font-size: 17px;
+    list-style: none;
+    letter-spacing: 0.8px;
+}
+.your-account .left,
+.search-discovery .left,
+.customizing .left,
+.posting .left{
+    float: left;
+    width: 35%;
+}
+.your-account .right,
+.search-discovery .right,
+.customizing .right,
+.posting .right{
+    float: right;
+    width: 30%;
+}
+.your-account .center,
+.search-discovery .center,
+.customizing .center,
+.posting .center{
+    width: 30%;
+    float: left;
+    
+}
+.your-account a:hover {
+    color: #ff69b4;
+}
+.search-discovery a:hover {
+    color: #ff69b4;
+}
+.customizing a:hover {
+    color: #ff69b4;
+}
+.posting a:hover{
+    color: #ff69b4;
+}
+/* ------------- */
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #222222;
+    padding: 70px 0px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 10;
+    bottom: -10px;
+    background-color: #e4a0b7;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.footer-col ul li:not(:last child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transform: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #e4a0b7;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #e4a0b7;
+    transition: all 0.5 ease;
+}
+
+.footer-col .social-links a:hover{
+    color: #e4a0b7;
+    background-color: #ff69b4;
+}
+
+/* responsive */
+@media(max-width: 1160px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .container p {
+        font-size: 60px;
+        margin: 30px;
+        padding: 20px;
+        color: #ffff;
+    }
+    button {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    nav ul li a {
+        visibility: hidden;
+      }
+      nav .logo p {
+        padding-left: 60px ;
+      }
+      select {
+        visibility: hidden;
+      }
+      nav .logo a {
+        padding: 0px 30px 0px 50px ;
+      }
+}
+
+@media(max-width: 750px){
+    .footer-col{
+        width: 100%;
+    }
+    .container p {
+        font-size: 60px;
+        margin: 30px;
+        padding: 20px;
+        color: #ffff;
+    }
+    button {
+        display: none;
+    }
+    nav ul li a {
+        visibility: hidden;
+      }
+      nav .logo a {
+        padding: 0px 30px 0px 50px ;
+      }
+      select {
+        visibility: hidden;
+      }
+      .your-account{
+        width: 95%;
+        height: 750px;
+      }
+      .search-discovery{
+        width: 95%;
+        height: 450px;
+      }
+      .customizing{
+        width: 95%;
+        height: 550px;
+      }
+      .posting{
+        width: 95%;
+        height: 500px;
+      }
+      .title h1,
+      .title2 h1,
+      .title3 h1,
+      .title4 h1{
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        padding:0px 10px
+    }
+    .your-account a,
+    .search-discovery a,
+    .customizing a,
+    .posting a{
+        font-size: 13px;
+        padding:0px 9px
+    }
+    .your-account h3,
+    .search-discovery h3,
+    .customizing h3,
+    .posting h3{
+        font-size: 13px;
+        padding:0px 28px;
+    }
+    .your-account ul li a, 
+    .search-discovery ul li a,
+    .customizing ul li a,
+    .posting ul li a{
+        font-size: 12px;
+        padding:0px 1px
+    }
+}
+@media(max-width: 590px){
+    .footer-col{
+        width: 100%;
+    }
+    .container p {
+        font-size: 60px;
+        margin: 30px;
+        padding: 20px;
+        color: #ffff;
+    }
+    button {
+        display: none;
+    }
+    nav ul li a {
+        visibility: hidden;
+      }
+      nav .logo a {
+        padding:0px;
+      }
+      select {
+        visibility: hidden;
+      }
+      .your-account{
+        width: 96%;
+        height: 850px;
+      }
+      .search-discovery{
+        width: 96%;
+        height: 450px;
+      }
+      .customizing{
+        width: 96%;
+        height: 650px;
+      }
+      .posting{
+        width: 96%;
+        height: 620px;
+      }
+      .title h1,
+      .title2 h1,
+      .title3 h1,
+      .title4 h1{
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        padding:0px 5px
+    }
+    .your-account h3,
+    .search-discovery h3,
+    .customizing h3,
+    .posting h3{
+        font-size: 10px;
+        padding:0px 2px 1px 2px;
+    }
+    .your-account ul li a, 
+    .search-discovery ul li a,
+    .customizing ul li a,
+    .posting ul li a{
+        font-size: 10px;
+        padding:0px 2px 1px 2px;
+    }
+    .your-account a,
+    .search-discovery a,
+    .customizing a,
+    .posting a{
+        font-size: 13px;
+        padding:0px 2px
+    }
+}

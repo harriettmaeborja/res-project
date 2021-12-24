@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: #222222;
+    line-height: 75px;
+    padding: 0px 50px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar .right-side{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    float: left;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+.navbar ul{
+    float: right;
+    cursor: pointer;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+.navbar ul li a{
+    color: #ffff;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+.navbar ul li a:hover{
+    color: #333;
+    background: #ff69b4;
+}
+body{
+    background-image: url(https://www.xmple.com/wallpaper/graph-paper-black-pink-grid-1440x2560-c2-000000-ff69b4-l2-5-245-a-30-f-20.svg);
+    background-size: cover;
+    
+}
+button{
+    background-color: #ff69b4;
+    color: white;
+}
+select {
+    background-color:white;
+    position: relative; bottom: 3px;
+    color: black;
+}
+
+button, select {
+    font-size: 18px;    
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    font-weight: 5px;
+    border-radius:.25cm;
+    text-align: center;
+    border: none;
+
+}
+select:hover{
+    background: #e4a0b7;
+}
+h2{
+    color: white;
+    position: relative; top: 130px;
+    letter-spacing: 2.5px;
+    padding-left: 20px;
+    
+}
+.images{
+    position: relative; top: 130px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.img1 {
+    width: 200px;
+    height: 190px;
+    padding: 6px;
+}
+.november {
+   padding-bottom: 5px;
+   padding-top: 50px;
+
+}
+.img1:hover{
+    background: #ff69b4;
+    cursor: pointer;
+    opacity: .5;
+}
+.right-side ul li img {
+    height: 50px;
+    width: 50px;
+    position: relative; top: 12px;
+}
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #222222;
+    position: relative; top: 150px;
+    padding: 30px 0px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e4a0b7;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.footer-col ul li:not(:last child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transform: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #e4a0b7;
+    padding-left: 10px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #e4a0b7;
+    transition: all 0.5 ease;
+}
+
+.footer-col .social-links a:hover{
+    color: #e4a0b7;
+    background-color: #ff69b4;
+}
+
+/* responsive */
+@media(max-width: 1024px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .images {
+        justify-content: center;
+    }
+    h2{
+        text-align: center;
+    }
+}
+
+@media(max-width: 653px){
+    .navbar {
+        display: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #222222;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+}
+
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav .logo p{
+    float: left;
+    color: #ffff;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #ffff;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+nav ul li a:hover{
+    color: #333;
+    background: #ff69b4;
+}
+.active {
+    text-decoration: none;
+}
+body{
+    background-image: url(https://www.xmple.com/wallpaper/graph-paper-black-pink-grid-1440x2560-c2-000000-ff69b4-l2-5-245-a-30-f-20.svg);
+    background-size: cover;
+    color: #ffff;
+    text-align: center;
+}
+#container img{
+    position:relative; left: 5px; top: 120px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}  
+input {
+  position:relative;top: 120px;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 7px;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none; 
+
+}
+.bottom-text {
+    position:relative; top: 120px;
+    font-size: 15px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    color: white;
+    
+}
+.log-in{
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 7px;
+    font-size: 15px;
+    padding: 11px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #ff69b4;
+}
+h5{
+    position:relative; top: 120px;
+}
+button{
+    position:relative; top: 130px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+div a{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+button i{
+    color: black;
+    font-size: 18px;
+    background-color: white;
+}
+/*  */
+footer{
+    position: relative; top: 250px;
+}
+.footer-col ul{
+    display: flex;
+    list-style: none;
+}
+.footer-col ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #bbbbbb;
+    margin: 7px 10px;
+
+}
+.footer-col ul li a:hover{
+    color: #e4a0b7;
+}
+/* responsive */
+@media(max-width: 1024px){
+    footer{
+        position: relative; top: 200px;
+    }
+    nav{
+        display: none;
+    }
+    .footer-col ul {
+        justify-content: center;
+    }
+    .trend a {
+        display: none;
+    } 
+}
+
+@media(max-width: 574px){
+    footer{
+        position: relative; top: 200px;
+    }
+    #container img, input, .bottom-text, .sign-up, h5, button {
+        position: relative; top: 80px;
+    }
+    nav{
+        display: none;
+    }
+    .bottom-text {
+        font-size: 9px;
+    }
+    .footer-col ul{
+        justify-content: center;
+    }
+    .footer-col ul li a {
+        font-size: 18px;
+    }
+    .trend a {
+        display: none;
+    }
+}

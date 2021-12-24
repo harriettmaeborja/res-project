@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #222222;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+    /* additional */
+    overflow: hidden;
+}
+
+nav .logo a{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #ffff;
+    float: left;
+}
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #ffff;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+nav ul li a:hover{
+    color: #333;
+    background: #ff69b4;
+}
+
+nav ul li .active{
+    color: #ffd1dc;
+    border-bottom: 3px solid;
+}
+
+nav ul li select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: none;
+    background: #ff69b4;
+    background-image: none;
+}
+
+nav ul li select::-ms-expand{
+    display: none;
+}
+
+nav ul li select{
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    line-height: 2;
+    background-image: #ffd1dc;
+    overflow: hidden;
+    border-radius: .25cm;
+}
+
+nav ul li select{
+    flex: 1;
+    padding: 0 .5cm;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    
+  }
+}
+
+@media screen and (max-width:600px){
+    .topnav.responsive {position: relative;}
+    .topnav.responsive.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+body{
+    background-image: url(https://www.xmple.com/wallpaper/graph-paper-black-pink-grid-1440x2560-c2-000000-ff69b4-l2-5-245-a-30-f-20.svg);
+    background-size: cover;
+}
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ff69b4;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+    width: 550px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: white;
+}
+
+.search-btn{
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff69b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4;
+    line-height: 40px;
+    width: 0px;
+}
+
